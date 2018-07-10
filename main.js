@@ -69,9 +69,9 @@ var drawFlower = function(x,y) {
     .center(300,300)
     .addTo(flowerGroup)
     drawing
-    .ellipse(4,70)
+    .ellipse(5,70)
     .fill('brown')
-    .center(0,100)
+    .center(300,350)
     .rotate(180)
     .addTo(flowerGroup)
      drawing
@@ -82,13 +82,13 @@ var drawFlower = function(x,y) {
     drawing
     .ellipse(30,10)
     .fill('green')
-    .center(290,100)
+    .center(290,358)
     .addTo(flowerGroup)
     .rotate(45)
     drawing
     .ellipse(30,10)
     .fill('green')
-    .center(310,100)
+    .center(312,358)
     .addTo(flowerGroup)
     .rotate(-45)
 
@@ -103,11 +103,4 @@ drawFlower (500,50)
 drawFlower (-100,300)
 drawFlower( 200,300)
 drawFlower(500,300)
-
-
-
-
-
-
-
 
